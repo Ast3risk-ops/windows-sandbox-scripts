@@ -25,3 +25,11 @@ These are my scripts and configs I use for [Windows Sandbox](https://learn.micro
 ></details>
 
 If you want to know how to write these configs yourself, see [Microsoft's guide](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-configure-using-wsb-file).
+
+## What these files are
+
+| File Name | Description |
+|-----------|-------------|
+| `default.wsb` | Default config I use for running untrusted programs without an Internet connection. |
+| `tor.wsb` | Config for running the Tor Browser (you should always run it in a VM as it's full of known exploits and weak sandboxing just like Firefox). |
+| `network.bat` | Script I share to the VM to change its DNS resolver at boot because the default Hyper-V switch can't reach my custom DNS server for some reason. |
