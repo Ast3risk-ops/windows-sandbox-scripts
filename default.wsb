@@ -1,0 +1,12 @@
+<Configuration>
+<AudioInput>Disable</AudioInput>
+<VideoInput>Disable</VideoInput>
+<ProtectedClient>Enable</ProtectedClient>
+<Networking>Disable</Networking>
+<MappedFolders>
+  <MappedFolder>
+    <HostFolder>%USERPROFILE%\hyper-v</HostFolder>
+    <ReadOnly>true</ReadOnly>
+  </MappedFolder>
+ </MappedFolders>
+</Configuration>

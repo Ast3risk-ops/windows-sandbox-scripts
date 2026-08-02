@@ -1,0 +1,21 @@
+<Configuration>
+<AudioInput>Disable</AudioInput>
+<VideoInput>Disable</VideoInput>
+<ProtectedClient>Enable</ProtectedClient>
+<ClipboardRedirection>Disable</ClipboardRedirection>
+<Networking>Enable</Networking>
+<MappedFolders>
+  <MappedFolder>
+    <HostFolder>%USERPROFILE%\Tor Browser</HostFolder>
+    <ReadOnly>false</ReadOnly>
+  </MappedFolder>
+  <MappedFolder>
+    <HostFolder>%USERPROFILE%\hyper-v</HostFolder>
+    <ReadOnly>true</ReadOnly>
+  </MappedFolder>
+ </MappedFolders>
+<LogonCommand>
+  <Command>C:\Users\WDAGUtilityAccount\Desktop\hyper-v\network.bat</Command>
+  <Command>C:\Users\WDAGUtilityAccount\Desktop\Tor Browser\Browser\firefox.exe</Command>
+</LogonCommand>
+</Configuration>
